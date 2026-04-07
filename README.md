@@ -1,6 +1,6 @@
 # tradik/homebrew-tap
 
-Homebrew tap for [MDDB](https://github.com/tradik/mddb) — Markdown Database.
+Homebrew tap for [tradik](https://github.com/tradik) tools.
 
 ## Install
 
@@ -15,8 +15,24 @@ brew tap tradik/tap
 | `mddb` | MDDB server daemon (`mddbd`) |
 | `mddb-cli` | MDDB command-line client |
 | `mddb-panel` | MDDB admin panel (static web UI) |
+| `wpexporter` | WordPress export tools (`wpexportjson`, `wpxmlrpc`, `wpmcp`) |
 
 ## Usage
+
+### wpexporter
+
+```bash
+brew install tradik/tap/wpexporter
+
+# Export WordPress site to Markdown
+wpexportjson export --url https://example.com -f markdown -o ./export
+
+# Export via XML-RPC (authenticated)
+wpxmlrpc export --url https://example.com -u admin -o ./export
+
+# MCP server for AI assistants
+wpmcp
+```
 
 ### MDDB Server
 
@@ -54,4 +70,5 @@ brew update
 brew upgrade tradik/tap/mddb
 brew upgrade tradik/tap/mddb-cli
 brew upgrade tradik/tap/mddb-panel
+brew upgrade tradik/tap/wpexporter
 ```
