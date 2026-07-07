@@ -11,22 +11,22 @@ class Mddb < Formula
   on_macos do
     on_arm do
       url "https://github.com/tradik/mddb/releases/download/v2.11.2/mddbd-v2.11.2-darwin-arm64.tar.gz"
-      sha256 "72419c6b7725489c80467ccfa7ae9e936926eb9835445bcc9262e73122f3eac0"
+      sha256 "8686c8963550063d8b4ef17afc60c63bd8fd3950f642da5aca025f418185c877"
     end
     on_intel do
       url "https://github.com/tradik/mddb/releases/download/v2.11.2/mddbd-v2.11.2-darwin-amd64.tar.gz"
-      sha256 "f8d50d3336df0d0e34e5f0d436febe73a16ce78e03a40d9953edab803c70e06d"
+      sha256 "2d7b9ebfeea780209c8762859e1894bb0ca979021395ca9e7fe4e43321de1ad9"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tradik/mddb/releases/download/v2.11.2/mddbd-v2.11.2-linux-arm64.tar.gz"
-      sha256 "e0f0acbe0aaf9f69c07ce502286ea1d5118e1c8e60634f9cdeafe123c5071522"
+      sha256 "62f260502a605738b5c125d429512ac9edecf17cbdb68f206da85c9a141a500f"
     end
     on_intel do
       url "https://github.com/tradik/mddb/releases/download/v2.11.2/mddbd-v2.11.2-linux-amd64.tar.gz"
-      sha256 "f619b9f4fcd8b247277b734a05e18a24a70a3e10f9e06443d8570e0dabd2f7ff"
+      sha256 "501a17e204f50dd79a20ec990241a8a1a53e029e471f4a7026cedd419db6264e"
     end
   end
 
