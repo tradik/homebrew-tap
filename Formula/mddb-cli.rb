@@ -11,22 +11,22 @@ class MddbCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/tradik/mddb/releases/download/v2.11.4/mddb-cli-v2.11.4-darwin-arm64.tar.gz"
-      sha256 "a6b9c1220f59a07b6cede6b7db0668d13000b8e555027f3c5ea9878558abe935"
+      sha256 "6763dcff35a2155c75b2079bc6b99b3ada18cae245c2a8ffcd6dc3a92733e7b0"
     end
     on_intel do
       url "https://github.com/tradik/mddb/releases/download/v2.11.4/mddb-cli-v2.11.4-darwin-amd64.tar.gz"
-      sha256 "4bbc3299114da93bcb002f954ebfdb60925bce3009a922c5a4095e10b84caa55"
+      sha256 "a5e31c7910b0821a2fcc199545c1b6afc46bcad1c0cbc1731b54fad3b1d89557"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tradik/mddb/releases/download/v2.11.4/mddb-cli-v2.11.4-linux-arm64.tar.gz"
-      sha256 "a563d163e5602c474e81a52c6ac4c018425681fa764e98c6dd03b3ad7a2139a6"
+      sha256 "95ff43e94c9891eac2884b77b3970406d366e40e9f486c71192c6e0ce9624130"
     end
     on_intel do
       url "https://github.com/tradik/mddb/releases/download/v2.11.4/mddb-cli-v2.11.4-linux-amd64.tar.gz"
-      sha256 "0f59acf8c6fe0f9b884978ba8da3bf0dc8102556b2259ef9bad2d8e7687ac10f"
+      sha256 "8e431b1c16f7a0327e2c9b8948c19bbb6fd116f292f8d25ea630e89be4d1296e"
     end
   end
 
