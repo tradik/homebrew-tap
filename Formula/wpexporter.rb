@@ -5,28 +5,28 @@
 class Wpexporter < Formula
   desc "Export WordPress content to JSON, Markdown, Shopify, and 14+ formats"
   homepage "https://github.com/tradik/wpexporter"
-  version "1.8.7"
+  version "1.8.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tradik/wpexporter/releases/download/v1.8.7/wpexportjson-v1.8.7-darwin-arm64.tar.gz"
-      sha256 "acdc7919cbbb1547bd282ea8bc7c160024084f7fd1350dacf3a60ba0bd3173fd"
+      url "https://github.com/tradik/wpexporter/releases/download/v1.8.8/wpexportjson-v1.8.8-darwin-arm64.tar.gz"
+      sha256 "be5fb965ab47c4f5a8a65d2271769799022ec6c8a0db79dd598be3e15f5327e1"
     end
     on_intel do
-      url "https://github.com/tradik/wpexporter/releases/download/v1.8.7/wpexportjson-v1.8.7-darwin-amd64.tar.gz"
-      sha256 "9b8c3ab2db878ae87d0f34daf08bf3076f7e393ac8abd1894af2ce04c17d960f"
+      url "https://github.com/tradik/wpexporter/releases/download/v1.8.8/wpexportjson-v1.8.8-darwin-amd64.tar.gz"
+      sha256 "135502da70b82a4703599d6b8c6ca9a65dd55d474b1c7fba316883fe0445d526"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tradik/wpexporter/releases/download/v1.8.7/wpexportjson-v1.8.7-linux-arm64.tar.gz"
-      sha256 "23769fd266d93583ab804f6324187e0e4b1ebb95114ed1478abb88082639dbbe"
+      url "https://github.com/tradik/wpexporter/releases/download/v1.8.8/wpexportjson-v1.8.8-linux-arm64.tar.gz"
+      sha256 "07571d56df331a79e29aa6e99e419e26259d5d8b204faf10eadec34262435791"
     end
     on_intel do
-      url "https://github.com/tradik/wpexporter/releases/download/v1.8.7/wpexportjson-v1.8.7-linux-amd64.tar.gz"
-      sha256 "2484b9e4ce9b53cf39419b5da2653961faa3c1448bc1573f36b44f2b8fa3484d"
+      url "https://github.com/tradik/wpexporter/releases/download/v1.8.8/wpexportjson-v1.8.8-linux-amd64.tar.gz"
+      sha256 "e16c1a570d003aa72c15984651a8dcbeb67c50a7f304b3a89e4b1eeea4d45564"
     end
   end
 
