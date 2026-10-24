@@ -5,28 +5,28 @@
 class MddbCli < Formula
   desc "Command-line interface for MDDB Markdown Database"
   homepage "https://github.com/tradik/mddb"
-  version "2.17.2"
+  version "2.18.0"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/tradik/mddb/releases/download/v2.17.2/mddb-cli-v2.17.2-darwin-arm64.tar.gz"
-      sha256 "0ef522cc6005050bef73bc5e05a040279d8c8844fff3ae2b70c5aed525a77258"
+      url "https://github.com/tradik/mddb/releases/download/v2.18.0/mddb-cli-v2.18.0-darwin-arm64.tar.gz"
+      sha256 "d01c7539eb282749b3c4175fadbe51aeb5896522df41a78948c7b84b94b16c5b"
     end
     on_intel do
-      url "https://github.com/tradik/mddb/releases/download/v2.17.2/mddb-cli-v2.17.2-darwin-amd64.tar.gz"
-      sha256 "2031b6f4988540e0a94b6e30c2fab99cab0d5b91238a26342dfff21c9366ff2a"
+      url "https://github.com/tradik/mddb/releases/download/v2.18.0/mddb-cli-v2.18.0-darwin-amd64.tar.gz"
+      sha256 "a771d49098083227fd6e445ac234fc0c8ac505c21ba17874a3f023b7700cd120"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tradik/mddb/releases/download/v2.17.2/mddb-cli-v2.17.2-linux-arm64.tar.gz"
-      sha256 "1613521c06715e05326c4dae54b24d7e217edc047835719e18b9047e02d1dd3b"
+      url "https://github.com/tradik/mddb/releases/download/v2.18.0/mddb-cli-v2.18.0-linux-arm64.tar.gz"
+      sha256 "4c29af4a616053308746e4fd1b6987494006f4aad6ca69eb81d75dcf74802b42"
     end
     on_intel do
-      url "https://github.com/tradik/mddb/releases/download/v2.17.2/mddb-cli-v2.17.2-linux-amd64.tar.gz"
-      sha256 "1cef238fab5a76511a25dcb2adffdfbe28e3d56eac99c6936b1189a60803298f"
+      url "https://github.com/tradik/mddb/releases/download/v2.18.0/mddb-cli-v2.18.0-linux-amd64.tar.gz"
+      sha256 "71c3030061fca31cfa1ff4f829be5dd762c26c801272e7775516968b9863a543"
     end
   end
 
