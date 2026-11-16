@@ -5,28 +5,28 @@
 class Mddb < Formula
   desc "Embedded Markdown database server with REST, gRPC, GraphQL and vector search"
   homepage "https://github.com/tradik/mddb"
-  version "2.19.7"
+  version "2.19.8"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/tradik/mddb/releases/download/v2.19.7/mddbd-v2.19.7-darwin-arm64.tar.gz"
-      sha256 "e983479e96b0fa80ec7989c84b05865c8881467e56539a72369ff99cdba55509"
+      url "https://github.com/tradik/mddb/releases/download/v2.19.8/mddbd-v2.19.8-darwin-arm64.tar.gz"
+      sha256 "77c04dead86233a429d6e02eab1187d8c4dbf6d6893bb2a66d0f3680d6ca8728"
     end
     on_intel do
-      url "https://github.com/tradik/mddb/releases/download/v2.19.7/mddbd-v2.19.7-darwin-amd64.tar.gz"
-      sha256 "b3c929a67748892b95f032675181bcc61e558e52e3aaadb4b0e3b31c81a879dc"
+      url "https://github.com/tradik/mddb/releases/download/v2.19.8/mddbd-v2.19.8-darwin-amd64.tar.gz"
+      sha256 "6d1850d87d849e212bc25fcbcbf4b6e5bf7274914c1a23d2acb664776e84fb27"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tradik/mddb/releases/download/v2.19.7/mddbd-v2.19.7-linux-arm64.tar.gz"
-      sha256 "96429a4c96e8863a282f697b9ce8f7d72a74b282bcd532fa8376c359c05aa5a4"
+      url "https://github.com/tradik/mddb/releases/download/v2.19.8/mddbd-v2.19.8-linux-arm64.tar.gz"
+      sha256 "1a0a05ad48f455b3c997d3534cf744215d26e795b2130135816f9636b8f06d12"
     end
     on_intel do
-      url "https://github.com/tradik/mddb/releases/download/v2.19.7/mddbd-v2.19.7-linux-amd64.tar.gz"
-      sha256 "3ad5d005f50c059658c2882f8da0c517e1c8243e4afa489770c76ebe0177ff95"
+      url "https://github.com/tradik/mddb/releases/download/v2.19.8/mddbd-v2.19.8-linux-amd64.tar.gz"
+      sha256 "f69a0499bd9d0ff686ad93207e0e84d8efc90e9eb9acf43f0020cec2868602c6"
     end
   end
 
